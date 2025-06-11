@@ -30,7 +30,7 @@
 }
 
 .gap-10 {
-  gap: 10px;
+  gap: 15px;
 }
 
 .col-33 {
@@ -38,10 +38,6 @@
 }
 
 /* Spaces  */
-
-.py-50 {
-  padding: 50px 0px;
-}
 
 .py-5 {
   padding: 5px 0px;
@@ -57,12 +53,21 @@
 
 /* Tags  */
 
+main {}
+
 header {
   background-color: orangered;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 a {
   text-decoration: none;
+}
+
+#item-shop {
+  padding: 130px 0px 50px 0px;
 }
 
 .others li {
@@ -78,6 +83,10 @@ a {
 
 .card {
   position: relative;
+}
+
+.brand {
+  text-transform: capitalize;
 }
 
 .item-type {
