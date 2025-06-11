@@ -43,12 +43,16 @@
   padding: 50px 0px;
 }
 
-.py-15 {
-  padding: 15px 0px;
+.py-5 {
+  padding: 5px 0px;
 }
 
 .mright-10 {
   margin-right: 10px;
+}
+
+.padding3-5 {
+  padding: 3px 5px;
 }
 
 /* Tags  */
@@ -72,7 +76,9 @@ a {
   color: white;
 }
 
-.card {}
+.card {
+  position: relative;
+}
 
 .item-type {
   text-transform: uppercase;
@@ -86,6 +92,28 @@ a {
 
 .price {
   text-decoration: line-through;
+}
+
+.heart {
+  background-color: white;
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.item-info {
+  position: absolute;
+  top: 500px;
+}
+
+.sale-value {
+  background-color: red;
+  margin-right: 3px;
+}
+
+.green-value {
+  background-color: lightgreen;
 }
 
 /* Selectors  */
