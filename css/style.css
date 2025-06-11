@@ -19,6 +19,10 @@
   justify-content: space-between;
 }
 
+.a-items-center {
+  align-items: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -60,6 +64,11 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
+}
+
+footer {
+  background-color: black;
+  padding: 40px 0px;
 }
 
 a {
@@ -125,6 +134,10 @@ a {
   background-color: lightgreen;
 }
 
+.legal-info {
+  margin-top: 15px;
+}
+
 /* Selectors  */
 
 .logo img {
@@ -138,4 +151,13 @@ a {
 
 .card img {
   width: 100%;
+}
+
+.legal-info span {
+  margin-right: 10px;
+}
+
+.socials i {
+  display: inline-block;
+  margin: 15px 8px 0px 0px;
 }
