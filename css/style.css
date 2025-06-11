@@ -160,18 +160,38 @@ a {
 
 /* hover  */
 
-.front-image1 {
+.front-image1,
+.front-image2,
+.front-image3,
+.front-image4,
+.front-image5,
+.front-image6 {
   display: block;
 }
 
-.back-image1 {
+.back-image1,
+.back-image2,
+.back-image3,
+.back-image4,
+.back-image5,
+.back-image6 {
   display: none;
 }
 
-.card:hover .front-image1 {
+.card:hover .front-image1,
+.card:hover .front-image2,
+.card:hover .front-image3,
+.card:hover .front-image4,
+.card:hover .front-image5,
+.card:hover .front-image6 {
   display: none;
 }
 
-.card:hover .back-image1 {
+.card:hover .back-image1,
+.card:hover .back-image2,
+.card:hover .back-image3,
+.card:hover .back-image4,
+.card:hover .back-image5,
+.card:hover .back-image6 {
   display: block;
 }
