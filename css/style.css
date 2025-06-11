@@ -29,6 +29,14 @@
   text-align: center;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 10px);
+}
+
 /* Spaces  */
 
 .py-50 {
@@ -64,6 +72,21 @@ a {
   color: white;
 }
 
+.card {}
+
+.item-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sale-price {
+  color: red;
+  margin-right: 5px;
+}
+
+.price {
+  text-decoration: line-through;
+}
 
 /* Selectors  */
 
@@ -74,4 +97,8 @@ a {
 
 #item-shop {
   background-color: bisque;
+}
+
+.card img {
+  width: 100%;
 }
