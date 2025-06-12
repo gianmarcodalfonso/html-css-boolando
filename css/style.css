@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,6 +68,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
+  top: 0;
 }
 
 footer {
@@ -106,6 +111,7 @@ a {
 .sale-price {
   color: red;
   margin-right: 5px;
+  font-weight: bold;
 }
 
 .price {
@@ -194,4 +200,10 @@ a {
 .card:hover .back-image5,
 .card:hover .back-image6 {
   display: block;
+}
+
+/* bonus  */
+
+.heart:hover {
+  color: red;
 }
